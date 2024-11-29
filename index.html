@@ -1,0 +1,897 @@
+
+<!doctype html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="385223b7-8ca2-4862-b7d8-7a42e4daec09" data-blockingmode="auto" type="text/javascript"></script>
+    <meta name="google-site-verification" content="tnEeZct6go0t3_Ec3EoekrL86F5K6Qfofou7lju0akA" />
+        <link rel="shortcut icon" href=""/>
+
+    <!-- CSS -->
+<!--    <link type="text/css" href="--><!--" rel="stylesheet">-->
+    <link rel="stylesheet preload" type="text/css" href="css/typeki.css" as="style">
+    <link rel="stylesheet preload" type="text/css" href="css/flatpickr.min.css" as="style">
+<!--    <link type="text/css" rel="stylesheet" href="--><!--">-->
+    <link rel="stylesheet preload" type="text/css" href="css/custom.min.css" as="style">
+<!-- Incluir Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+<!-- Incluir Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <title>Villa Eli </title>
+
+    <meta name="robots" content="index, follow">
+    
+
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="Villa Eli">
+        <meta property="og:title" content="Villa Eli"/>
+            <meta property="og:url" content="https://villaeli.github.io/VillaEli/"/>
+    
+            <meta property="og:image" content="https://villaeli.github.io/VillaEli/" />
+       
+
+    <!-- TwitterCard -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://villaeli.github.io/VillaEli/">    <meta name="twitter:title" content="Villa Eli">
+    <meta name="twitter:text:description" content="" />
+            <meta name="twitter:image:src" content="" />
+    
+    <!-- Alternates y Hreflang -->
+            <link href="https://villaeli.github.io/VillaEli/" rel="canonical" />
+
+                    
+        
+        <link href="https://villaeli.github.io/VillaEli/" hreflang="es" rel="alternate" />
+    
+           <!-- Google Tag Manager -->
+           <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5PJBRJP');
+        </script>
+        <!-- END Google Tag Manager -->
+    
+    <script type="text/javascript">
+        var BASE_URL = "https://villaeli.github.io/VillaEli/";
+        var THEME_PATH = "assets/themes/www.sitgesgroup.com/";
+        var HOTEL_LAT = "41.234777";
+        var HOTEL_LON = "1.807031";
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var lazyloadMapElems = document.querySelectorAll(".map-lazy");
+            var lazyloadThrottleTimeout;
+
+            function lazyloadMap () {
+                if(lazyloadThrottleTimeout) {
+                    clearTimeout(lazyloadThrottleTimeout);
+                }
+
+                lazyloadThrottleTimeout = setTimeout(function() {
+                    var scrollTop = window.pageYOffset;
+                    lazyloadMapElems.forEach(function(map) {
+                        if(map.offsetTop < (window.innerHeight + scrollTop)) {
+                            //initMap();
+                            map.classList.remove('map-lazy');
+                        }
+                    });
+
+                    if(document.querySelectorAll(".map-lazy").length == 0) {
+                        document.removeEventListener("scroll", lazyloadMap);
+                        window.removeEventListener("resize", lazyloadMap);
+                        window.removeEventListener("orientationChange", lazyloadMap);
+                    }
+                }, 100);
+            }
+
+            document.addEventListener("scroll", lazyloadMap);
+            window.addEventListener("resize", lazyloadMap);
+            window.addEventListener("orientationChange", lazyloadMap);
+        });
+    </script>
+</head>
+
+<body id="id-1">
+<style>
+    #preloader{position:fixed;left:0;top:0;z-index:1031;width:100%;height:100%;overflow:hidden;background-color: #f4f2ec;background-repeat: no-repeat;background-position: center;}
+    #preloader .b-img {width: 188.61px;height: 190.47px;position: absolute;z-index:1;transform: translate(-50%,-50%);top: 50%;left: 50%;}
+    #preloader .b-img .img-1 {position: absolute;z-index:1;transform: translate(-50%,-50%);top: 50%;left: 50%;}
+    #preloader .b-img > div {position: absolute;z-index:1;transform: translate(-50%,-50%);top: 50%;left: 50%;animation: loading 30s infinite;}
+    @keyframes loading {
+        0% {
+            transform: translate(-50%,-50%) rotate(0deg);
+        }
+        50% {
+            transform: translate(-50%,-50%) rotate(360deg);
+        }
+        100% {
+            transform: translate(-50%,-50%) rotate(721deg);
+        }
+    }
+</style>
+<div id="preloader" style="overflow: hidden;width: 100%;">
+    <div class="b-img">
+        <img class="img-1" src="media/WhatsApp_Image_2024-11-26_at_11.48.02_AM__1_-removebg-preview.png" width="381" height="244" alt="Villa Eli">
+        <div>
+            <
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PJBRJP"
+                      height="0" width="0" style="display:none; visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        
+<header>
+    <nav class="navbar navbar-top position-relative">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav b-menu">
+                <li class="nav-item menu">
+                    <div class="menu-toggle">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                    <p>Menú</p>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav logo">
+                <li class="nav-item">
+                    <a href="https://villaeli.github.io/VillaEli/">
+                        <img class="lazy l-1" src="media/WhatsApp_Image_2024-11-26_at_11.48.02_AM__1_-removebg-preview.png" width="86" height="86" alt="Sitges Group Apartments">
+                        <img class="lazy l-2" src="media/WhatsApp_Image_2024-11-26_at_11.48.02_AM__1_-removebg-preview.png" width="86" height="86" alt="Sitges Group Apartments">
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav links-book">
+                <li class="nav-item b-langs dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="https://villaeli.github.io/VillaEli/" role="button" aria-haspopup="true" aria-expanded="false">Español</a>
+
+                
+               
+                <!--<li class="nav-item menu d-lg-none">
+                    <div class="menu-toggle">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<nav class="site-nav__menu block-menu text-center">
+    <div class="site-nav__menu-inner">
+        <div class="site-nav__main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 b-links">
+                        <div>
+                            <ul class="list-unstyled list-inline m-0">
+                                                                   <li class="nav-item list-inline-item"><a href="index.html">Inicio</a><span>/</span></li>
+                                                                   <li class="nav-item list-inline-item"><a href="menu.html">menu</a><span>/</span></li>
+                                                                   <li class="nav-item list-inline-item"><a href="">cambiable</a><span>/</span></li>
+                                                                   <li class="nav-item list-inline-item"><a href="">cambiable</a><span>/</span></li>
+                                                                   <li class="nav-item list-inline-item"><a href="">Servicios</a><span>/</span></li>
+                                                                   <li class="nav-item list-inline-item"><a href="">cambiable</a></li>
+                                                            </ul>
+                            <ul class="list-unstyled list-inline b-links-bottom">
+                                                                    <li class="nav-item list-inline-item item-bottom"><a href="">Política de privacidad</a><span>/</span></li>
+                                                                    <li class="nav-item list-inline-item 
+                            <ul class="list-unstyled list-inline b-links-bottom d-none">
+                                                                                                                                                                                
+                                                                                                                                                
+                                                                                                                                                <li class="nav-item list-inline-item item-bottom"><a href="">English</a></li>
+                                                                                                </ul>
+                            <ul class="list-unstyled m-0 b-links-social">
+                                                                <li class="nav-item"><a href="" target="_blank" rel="noopener"><span class="d-none">FB</span><i class="icons ico-facebook"></i></a>
+                                                                                                        <li class="nav-item"><a href="" target="_blank" rel="noopener"><span class="d-none">IG</span><i class="icons ico-instagram"></i></a>
+                                                                                                        <li class="nav-item"><a href="" target="_blank" rel="noopener"><span class="d-none">LI</span><i class="icons ico-linkedin"></i></a>
+                                                                                                        <li class="nav- item"><a href="" target="_blank" rel="noopener"><span class="d-none">YT</span><i class="icons ico-youtube"></i></a>
+                                                                </ul>
+                            <ul class="b-langs-block">
+                                                                    <li class="item">
+                                        <a href="" class="active">
+                                            es.
+                                        </a>
+                                    </li>
+                                                                    <li class="item">
+                                        <a href="" >
+                                            ca.
+                                        </a>
+                                    </li>
+                                                                    <li class="item">
+                                        <a href="" >
+
+                                        </a>
+                                    </li>
+                                                                    <li class="item">
+                                        <a href="" >
+                                            en.
+                                        </a>
+                                    </li>
+                                                                    <li class="item">
+                                        <a href="" >
+                                            fr.
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="ModalAdv" tabindex="-1" aria-labelledby="ModalAdvLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-center">
+            <img class="close" src="media/icon-close.svg" height="22" width="22" alt="cerrar" data-bs-dismiss="modal" aria-label="Close">
+            <div class="row">
+                                                 
+
+                                                        
+
+                           
+
+                                                        
+
+                                                </div>
+        </div>
+    </div>
+</div>
+
+<section class="d-hero no-cover">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 with-text">
+                <div class="d-none d-lg-block" style="height: 100%; width: 100%; overflow: hidden; position: relative;">
+                    <div class="video-background">
+                        <video class="video-bg" autoplay muted loop playsinline>
+                            <source src="media/WhatsApp Video 2024-11-26 at 9.15.31 AM - Trim.mp4" type="video/mp4">
+                            <!-- Puedes agregar otros formatos si lo deseas -->
+                            <source src="media/WhatsApp Video 2024-11-26 at 9.15.31 AM - Trim.webm" type="video/webm">
+                            <source src="media/WhatsApp Video 2024-11-26 at 9.15.31 AM - Trim.ogv" type="video/ogv">
+                            Tu navegador no soporta el formato de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                    </div>
+                                    
+                <div class="text">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="d-intro-new bg-beige">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-11 col-lg-10 text-center">
+                                        <p class="p-section" data-aos="fade-up">Sobre nosotros</p>
+                                                    <h2 class="title" data-aos="fade-up">¿somos Villa Eli y estamos encantados de darte la bienvenida a nuestro pequeño paraíso.</h2>
+                                <div class="text" data-aos="fade-up">
+                    <p>¿Buscas un lugar para hospedarte, disfrutar de una deliciosa comida o celebrar un evento inolvidable? Villa Eli es tu destino. Ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades. Desde nuestras acogedoras habitaciones hasta nuestro espacioso salón de eventos, somos el lugar perfecto para cualquier ocasión. Déjate sorprender por nuestra cocina [menciona el tipo de cocina] y crea recuerdos inolvidables..</p>
+                </div>
+                <div class="img-div overflow-hidden position-relative" data-aos="fade-up">
+                    
+<picture>
+        <img src="media/fotomain.png"
+         class="img-fluid lazy" height="600" width="1356"         alt=""
+         title="">
+</picture>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d-our-buildings">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 b-intro text-center">
+                           
+        </div>        
+                                    
+</section>
+<section class="d-our-buildings">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-11 b-intro text-center">
+                <h1 class="title" data-aos="fade-up">Explora nuestros platos</h1>
+                <div class="text" data-aos="fade-up">
+                    <p>¿Antojo de pizza? ¿O prefieres una hamburguesa jugosa? ¡En Villa Eli lo tenemos todo! Y para rematar, una buena cerveza bien fría o un coctel de autor. ¡Ven a probar nuestras delicias y descubre por qué somos el lugar favorito de los amantes de la buena comida!"</p>
+                </div>
+            </div>
+            <div class="col-11 text-center b-blocks">
+                <div class="row">
+                                        <!-- block -->
+                        <div class="col-sm-6 col-lg-3 b-block" data-aos="fade-up">
+                            <div>
+                                <a href="menu.html">
+                                    <div class="img-div overflow-hidden">
+                                        
+    <picture>
+                <source src="mediapizza1.png" type="image/webp">
+            <img src="media/pizza1.png"
+             class="img-fluid lazy" height="500" width="300"         alt=""
+             title="">
+    </picture>
+    
+                                    </div>
+                                </a>
+                                <a href="menu.html">
+                                    <div class="img-building">
+                                        
+    <picture>
+            <img src="media/Captura de pantalla (11).png"
+             class="img-fluid lazy" height="464" width="357"         alt=""
+             title="">
+    </picture>
+    
+                                    </div>
+                                </a>
+                                <div class="b-info">
+                                    <h3 class="title"><a href="menu.html">pizza 1</a></h3>
+                                    <div class="info">
+                                        <p><strong>pizza 1</strong></p>
+                                        <p> 3 sabores </p>
+                                    </div>
+                                    
+    
+    <a  href="menu.html" class="btn-black">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                                        <!-- block -->
+                        <div class="col-sm-6 col-lg-3 b-block" data-aos="fade-up">
+                            <div>
+                                <a href="menu.html">
+                                    <div class="img-div overflow-hidden">
+                                        
+    <picture>
+            <img src="media/pizza2.png"
+             class="img-fluid lazy" height="500" width="300"         alt=""
+             title="">
+    </picture>
+    
+                                    </div>
+                                </a>
+                                <a href="menu.html">
+                                    <div class="img-building">
+                                        
+    <picture>
+            <img src="media/pizza2.png"
+             class="img-fluid lazy" height="464" width="357"         alt=""
+             title="">
+    </picture>
+    
+                                    </div>
+                                </a>
+                                <div class="b-info">
+                                    <h3 class="title"><a href="menu.html">pizza 2</a></h3>
+                                    <div class="info">
+                                        <p><strong>pizza 2</strong></p>
+                                        <p>2 sabores</p>
+                                    </div>
+                                    
+    
+    <a  href="menu.html" class="btn-black">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                                        <!-- block -->
+                        <div class="col-sm-6 col-lg-3 b-block" data-aos="fade-up">
+                            <div>
+                                <a href="menu.html">
+                                    <div class="img-div overflow-hidden">
+                                        
+    <picture>
+                <source src="media/vistas.png" type="image/webp">
+            <img src="media/vistas.png"
+             class="img-fluid lazy" height="500" width="300"         alt=""
+             title="">
+    </picture>
+    
+                                    </div>
+                                </a>
+                                <a href="menu.html">
+                                    <div class="img-building">
+                                        
+    <picture>
+            <img src="media/vistas.png"
+             class="img-fluid lazy" height="464" width="357"         alt=""
+             title="">
+    </picture>
+    
+                                    </div>
+                                </a>
+                                <div class="b-info">
+                                    <h3 class="title"><a href="menu.html">pizza 3</a></h3>
+                                    <div class="info">
+                                        <p><strong>pizza 3</strong></p>
+                                        <p>1 sabor </p>
+                                    </div>
+                                    
+    
+    <a  href="menu.html" class="btn-black">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                                        <!-- block -->
+                        <div class="col-sm-6 col-lg-3 b-block" data-aos="fade-up">
+                            <div>
+                                <a href="menu.html">
+                                    <div class="img-div overflow-hidden">
+                                        
+    <picture>
+                <source src="media/fernet.png" type="image/webp">
+            <img src="media/fernet.png"
+             class="img-fluid lazy" height="500" width="300"         alt=""
+             title="">
+    </picture>
+    
+                                    </div>
+                                </a>
+                                <a href="menu.html">
+                                    <div class="img-building">
+                                        
+    <picture>
+            <img src="media/Captura de pantalla (11).png"
+             class="img-fluid lazy" height="464" width="357"         alt=""
+             title="">
+    </picture>
+    
+                                    </div>
+                                </a>
+                                <div class="b-info">
+                                    <h3 class="title"><a href="menu.html">Tragos</a></h3>
+                                    <div class="info">
+                                        <p><strong>Fernet</strong></p>
+                                        <p>Diferentes tamaños</p>
+                                    </div>
+                                    
+    
+    <a  href="menu.html" class="btn-black">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                  
+                </section>
+
+                <section class="d-text-bg-img">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center b-info position-relative p-0">
+                                <div class="img-div overflow-hidden">
+                                    
+                <picture>
+                        <img src="media/mirador.png"
+                         class="img-fluid lazy" height="600" width="1356"         alt=""
+                         title="">
+                </picture>
+                
+                                </div>
+                                <div>
+                                    <div class="text" data-aos="fade-up">
+                                        <p> Saborea la vida con una vista espectacular. Nuestro patio es el lugar perfecto para disfrutar de una deliciosa cena mientras contemplas el atardecer.".</p>
+                                    </div>
+                                    <div data-aos="fade-up">
+                                        
+                
+                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="d-blog">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-11 col-lg-10 text-center b-title">
+                                                    <h2 class="title" data-aos="fade-up"><i>Salon de Eventos</i></h2>
+                                                                    <p class="p-section" data-aos="fade-up"><i></i></p>
+                                            </div>
+                            <div class="col-11 col-md-5 b-img" data-aos="fade-up">
+                                <div class="img-div overflow-hidden position-relative">
+                                                                            
+                <picture>
+                        <img src="media/hallowen.jpeg"
+                         class="img-fluid lazy" height="600" width="1356"         alt=""
+                         title="">
+                </picture>
+                
+                                </div>
+                            </div>
+                            <div class="col-11 col-md-5 b-text">
+                                <div data-aos="fade-up">
+                                    <p class="date"></p>                    
+                                    <h3 class="title">Eventos en Villa Eli</h3>
+                                    <div class="text">Aparte de contar con nuestro alquiler de salon de eventos y el quincho con piscina tambien realizamos eventos tematicos por festivades y fiestas 
+                                 </div>
+                                    
+                
+                
+                                    
+                
+                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="d-map">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-11 col-lg-10 position-relative">
+                                <div class="b-block-1" data-aos="fade-up">
+                                    <img class="lazy" src="media/5661ba820a20463ba16ea2c33b90fcc5-free.png" width="131" height="136" alt="Sitges Group Apartments">
+                                    <div>
+                                        <h2 class="title">Localización</h2>
+                                        <p id="location-info">Avenida Costanera y, Villa Hayes 150404</p> <!-- Mostramos la ubicación -->
+                                    </div>
+                                </div>
+                                <div class="b-block-2">
+                                    <div data-aos="fade-up">
+                                        <p class="title" id="distance-asuncion">27,2 Km</p>
+                                        <p><span>33 min de Asunción</span></p>
+                                    </div>
+                                    <div data-aos="fade-up">
+                                        <p class="title" id="distance-puente">17,3 Km</p>
+                                        <p><span>30 min del puente héroes del Chaco</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-12 p-0" data-aos="fade-up">
+                                <!-- Reemplazamos el mapa antiguo con el iframe de Google Maps -->
+                                <div class="map-container" style="text-align: center;">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d451.64167632588686!2d-57.5187511!3d-25.0973449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945d99415b7a5297%3A0xc5d50b06ec97b3ae!2sVilla%20Elli!5e0!3m2!1ses!2spy!4v1732898549242!5m2!1ses!2spy" 
+                                            width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 text-center b-block" data-aos="fade-up">
+                                <div>
+                                    <img class="lazy" src="media/1687608961_icon-bus.svg" width="56" height="56" alt="transport">
+                                    <h3 class="title">En bus</h3>
+                                    <p>Es un recorrido de una hora o más. Líneas 30, 31, 40, 44 o 50.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center b-block" data-aos="fade-up">
+                                <div>
+                                    <img class="lazy" src="media/1687608961_icon-bus.svg" width="56" height="56" alt="transport">
+                                    <h3 class="title">En auto</h3>
+                                    <p>La vía más rápida y segura es la Ruta Transchaco. Es un recorrido de 33 min.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <script type="text/javascript">
+                    // Coordenadas para la ubicación de "Villa Elli"
+                    var HOTEL_LAT = -25.09737583004759;  // Latitud
+                    var HOTEL_LON = -57.51884149114783;  // Longitud
+                
+                    // Inicializar el código para obtener la ubicación del usuario y mostrar la distancia
+                    document.addEventListener("DOMContentLoaded", function() {
+                        if (navigator.geolocation) {
+                            navigator.geolocation.getCurrentPosition(function(position) {
+                                var userLocation = [position.coords.latitude, position.coords.longitude];
+                
+                                // Calculamos la distancia entre la ubicación del usuario y la ubicación de Villa Elli
+                                var userLatLon = L.latLng(userLocation);
+                                var hotelLatLon = L.latLng([HOTEL_LAT, HOTEL_LON]);
+                                var distance = userLatLon.distanceTo(hotelLatLon); // Distancia en metros
+                
+                                // Mostrar la distancia en los cuadros correspondientes
+                                document.getElementById('distance-asuncion').textContent = (distance / 1000).toFixed(2) + " km";  // Convertir metros a kilómetros
+                                document.getElementById('location-info').textContent = "Tu ubicación: " + position.coords.latitude.toFixed(5) + ", " + position.coords.longitude.toFixed(5);
+                            });
+                        } else {
+                            alert("Geolocalización no está soportada en este navegador.");
+                        }
+                    });
+                </script>
+                
+                
+                <script>
+            
+                
+                    // Función para obtener el clima de Villa Hayes
+                    async function getWeather() {
+                        const apiKey = "4efacd018de04377909194730242711"; // Reemplaza con tu API Key de WeatherAPI
+                        const city = "Villa Hayes"; // Ciudad para consultar
+                        const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+                
+                        try {
+                            const response = await fetch(url);
+                            
+                            // Verificar si la respuesta fue exitosa
+                            if (!response.ok) {
+                                throw new Error(`Error HTTP: ${response.status}`);
+                            }
+                
+                            const data = await response.json();
+                
+                            // Verifica si la respuesta contiene la información esperada
+                            if (data.error) {
+                                throw new Error(data.error.message);  // Si hay un error en la respuesta, muestra el mensaje
+                            }
+                
+                            // Obtener la temperatura actual
+                            const currentTemp = data.current.temp_c;  // Temperatura actual en Celsius
+                            const weatherIcon = data.current.condition.icon; // Icono del clima
+                
+                            // Aquí puedes definir valores predeterminados para las máximas y mínimas, si lo deseas
+                            const maxTemp = currentTemp + 2;  // Puedes hacer alguna estimación o cálculo adicional
+                            const minTemp = currentTemp - 2;  // Igualmente, si lo deseas puedes establecer un valor fijo o alguna lógica
+                
+                            // Actualizamos la temperatura
+                            document.getElementById("temperature").innerHTML = `${currentTemp}<span>ºC</span>`;
+                            document.getElementById("max-temp").innerHTML = `Máxima ${maxTemp}º`;
+                            document.getElementById("min-temp").innerHTML = `Mínima ${minTemp}º`;
+                
+                            // Actualizamos el icono del clima
+                            if (weatherIcon) {
+                                document.getElementById("weather-icon").src = `https:${weatherIcon}`;
+                            } else {
+                                console.error("No se pudo obtener el icono del clima.");
+                            }
+                        } catch (error) {
+                            console.error("Error al obtener los datos del clima: ", error);
+                            document.getElementById("temperature").innerHTML = "No se pudo obtener el clima.";
+                            document.getElementById("max-temp").innerHTML = "Máxima no disponible";
+                            document.getElementById("min-temp").innerHTML = "Mínima no disponible";
+                        }
+                    }
+                
+                    // Función para actualizar la fecha
+                    function updateDate() {
+                        const daysOfWeek = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+                        const monthsOfYear = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+                        
+                        // Obtenemos la fecha actual
+                        const currentDate = new Date();
+                        
+                        // Extraemos el día de la semana, día del mes, mes y año
+                        const dayOfWeek = daysOfWeek[currentDate.getDay()];
+                        const dayOfMonth = currentDate.getDate();
+                        const monthOfYear = monthsOfYear[currentDate.getMonth()];
+                        const year = currentDate.getFullYear();
+                        
+                        // Formateamos la fecha
+                        const formattedDate = `${dayOfWeek} ${dayOfMonth} de ${monthOfYear}`;
+                        
+                        // Actualizamos el contenido en el HTML
+                        document.getElementById("date").innerHTML = `${formattedDate} <br><span id="max-temp">Máxima 20º</span><span id="min-temp">Mínima 18º</span>`;
+                    }
+                
+                    // Llamamos a las funciones cuando la página cargue
+                    window.onload = function() {
+                        getWeather();  // Obtiene el clima
+                        updateDate();   // Actualiza la fecha
+                
+                        // Actualizamos el clima cada 24 horas (86400000 ms)
+                        setInterval(() => {
+                            getWeather();  // Actualiza los datos del clima cada 24 horas
+                        }, 86400000);
+                    };
+                </script>
+                
+                <!-- Sección de clima (weather) -->
+                <section class="d-newsletter-new">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 b-weather">
+                                <div data-aos="fade-up">
+                                    <div class="b-icon">
+                                        <span><img id="weather-icon" class="lazy" src="media/few_clouds.svg" width="76" height="76" alt="weather"></span>
+                                    </div>
+                                    <div class="b-temp">
+                                        <p id="temperature">18<span>ºC</span></p>
+                                    </div>
+                                    <div class="b-date">
+                                        <p id="date">
+                                            <!-- La fecha será actualizada aquí dinámicamente -->
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                
+                            <div class="col-12 text-center b-title">
+                
+                                                
+                                                                            </label>
+                                        </div>
+                                        <div class="col-lg-7">
+                                            <span class="plain-text">This site is protected by reCAPTCHA and the Google
+                                                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and
+                                                <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Terms of Service</a> apply.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </form>            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-sm-11 col-md-6 col-lg-4 order-2 order-lg-1 b-info" data-aos="fade-up">
+                                <h2 class="title">Te interesa alquilar Villa Eli?</h2>
+                                <p>Contactanos al (0971)321551</p>
+                                
+                                <ul class="list-unstyled m-0 b-links-social">
+                                                            <li class="nav-item"><a href="media/facebook.svg" target="_blank" rel="noopener"><span class="d-none">FB</span><i class="icons ico-facebook"></i></a></li>
+                                                                                <li class="nav-item"><a href="" target="_blank" rel="noopener"><span class="d-none">IG</span><i class="icons ico-instagram"></i></a></li>
+                                                                                <li class="nav-item"><a href="https://instagram.com/villaelli_ffm?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener"><span class="d-none">LI</span><i class="icons ico-linkedin"></i></a></li>
+                                                                                <li class="nav-item"><a href="" target="_blank" rel="noopener"><span class="d-none">YT</span><i class="icons ico-youtube"></i></a></li>
+                                                    </ul>
+                            </div>
+                            <!-- Sección de redes sociales -->
+<div class="social-media-icons">
+    <a href="https://instagram.com/villaelli_ffm?igshid=YmMyMTA2M2Y=" target="_blank">
+        <img src="media/instagram.svg" alt="Instagram" width="60" height="60">
+    </a>
+    <a href="" target="_blank">
+        <img src="media/facebook.svg" alt="Facebook" width="60" height="60">
+    </a>
+</div>
+
+                            <div class="col-sm-11 col-md-12 col-lg-4 order-1 text-center b-logo" data-aos="fade-up">
+                                <a href="https://www.sitgesgroup.com">
+                                    <img class="lazy" src="media/WhatsApp_Image_2024-11-26_at_11.48.02_AM__1_-removebg-preview.png" src="media/WhatsApp_Image_2024-11-26_at_11.48.02_AM__1_-removebg-preview.png" width="204" height="206" alt="Sitges Group Apartments">
+                                </a>
+                            </div>
+                            <div class="col-sm-11 col-md-3 col-lg-2 order-2 b-info" data-aos="fade-up">
+                                <h2 class="title">Reserva directa</h2>
+                                <p>C/ Avenida Costanera y, Villa Hayes 150404<br>
+                                    <a href="tel:+34608247678" target="_blank" rel="noopener"> (0971)321551</a><br>
+                                    <a href="js/email-decode.min.js" target="_blank" rel="noopener"><span class="__cf_email__" data-cfemail="7e0c1b0d1b0c081f0d3e0d170a191b0d190c110b0e501d1113">[email&#160;protected]</span></a></p>
+                            </div>
+                            <div class="col-sm-11 col-md-3 col-lg-2 order-2 b-info" data-aos="fade-up">
+                                <h2 class="title"></h2>
+                                <p>C/ Avenida Costanera y, Villa Hayes 150404<br>
+                                    <a href="tel:+34608247678" target="_blank" rel="noopener"></a><br>
+                                    <p>Copyright © 2022<br>
+                                                                    <a href="">Política de Privacidad</a>.
+                                                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-4"></div>
+                            <div class="col-xs-12 col-md-4 text-center">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </footer>
+                    
+                <script src="js/jquery-3.6.1.min.js"></script>
+                <script src="js/jquery-latest.js"></script>
+                <script src="js/flatpickr.js"></script>
+                <script src="js/swiper-bundle.min.js"></script>
+                <script src="js/gsap.min.js"></script>
+                <script src="js/ScrollTrigger.min.js"></script>
+                <script src="js/aos.min.js"></script>
+                <script src="js/lazyload.js" ></script>
+                <script src="js/bootstrap.min.js" ></script>
+                <script src="js/custom.js"></script>
+                
+                <script>
+                    AOS.init({
+                        once: true,
+                        duration: 500,
+                        delay: 100,
+                        disable: 'mobile'
+                    });
+                    $(window).scroll(function () {
+                        AOS.refresh();
+                    });
+                </script>
+                
+                <!--    <script src="--><!--js/datepicker---><!--.js" async defer></script>-->
+                
+                
+                    <script src="js/maps.js" async defer></script>
+                
+                
+                <script>
+                    let captchaReady = false;
+                    function CaptchaCallback() {
+                        captchaReady = true;
+                    }
+                
+                
+                
+                </script>
+                    <script data-cfasync="false" src="js/email-decode.min.js"></script><script>
+                        window.addEventListener('DOMContentLoaded', function() {
+                                        $(document).ready(function () {
+                                document.getElementById("modal-main").setAttribute('style',"display: block;");
+                                setTimeout(function () {
+                                    $('.modal-main').addClass("show");
+                                }, 1000);
+                
+                                $('.btn-close').on('click', function () {
+                                    document.getElementById("modal-main").classList.remove("show");
+                                    setTimeout(function () {
+                                        document.getElementById("modal-main").removeAttribute('style');
+                                    }, 1000);
+                                });
+                            });
+                                    });
+                    </script>
+                
+                
+                
+                
+                <!-- CSS -->
+                <noscript id="deferred-styles">
+                    <link rel="stylesheet" type="text/css" href="css/jquery1.12.css">
+                    <link rel="stylesheet" type="text/css" href="css/flickity.min.css">
+                
+                    </noscript>
+                <script>
+                    var loadDeferredStyles = function() {
+                        var addStylesNode = document.getElementById("deferred-styles");
+                        var replacement = document.createElement("div");
+                        replacement.innerHTML = addStylesNode.textContent;
+                        document.body.appendChild(replacement)
+                        addStylesNode.parentElement.removeChild(addStylesNode);
+                    };
+                    var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+                        window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+                    if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 10); });
+                    else window.addEventListener('load', loadDeferredStyles);
+                </script>
+                
+                <!-- JS -->
+                
+                <script src='js/hotelnet.js' async></script>
+                </body>
+                </html>
+                

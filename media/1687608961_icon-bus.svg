@@ -1,0 +1,17 @@
+<svg id="Grupo_800" data-name="Grupo 800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52.331" height="53.246" viewBox="0 0 52.331 53.246">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_750" data-name="Rectángulo 750" width="52.331" height="53.246" transform="translate(0 0)" fill="none" stroke="#404040" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_799" data-name="Grupo 799" clip-path="url(#clip-path)">
+    <path id="Trazado_895" data-name="Trazado 895" d="M15.182,48.319v2.6a1.822,1.822,0,0,1-1.822,1.822H10.618A1.822,1.822,0,0,1,8.8,50.924v-2.6" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_896" data-name="Trazado 896" d="M43.648,48.319v2.6a1.822,1.822,0,0,1-1.822,1.822H39.084a1.822,1.822,0,0,1-1.822-1.822v-2.6" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Elipse_15" data-name="Elipse 15" cx="3.065" cy="3.065" r="3.065" transform="translate(8.925 36.579)" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Elipse_16" data-name="Elipse 16" cx="3.065" cy="3.065" r="3.065" transform="translate(37.39 36.579)" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectángulo_748" data-name="Rectángulo 748" width="42.794" height="47.638" rx="5.041" transform="translate(4.825 0.5)" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectángulo_749" data-name="Rectángulo 749" width="35.185" height="17.476" rx="1.721" transform="translate(8.63 6.843)" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_897" data-name="Trazado 897" d="M47.8,7.076h2.331a1.7,1.7,0,0,1,1.7,1.7v9.157" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_898" data-name="Trazado 898" d="M4.53,7.076H2.2a1.7,1.7,0,0,0-1.7,1.7v9.157" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

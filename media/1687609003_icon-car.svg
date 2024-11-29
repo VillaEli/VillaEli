@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.774" height="42.156" viewBox="0 0 53.774 42.156">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_747" data-name="Rectángulo 747" width="53.774" height="42.156" transform="translate(0 0)" fill="none" stroke="#404040" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_797" data-name="Grupo 797" transform="translate(0 0)">
+    <g id="Grupo_798" data-name="Grupo 798" clip-path="url(#clip-path)">
+      <path id="Trazado_889" data-name="Trazado 889" d="M47,34.384H6.842a4.037,4.037,0,0,1-4.037-4.037V26.156a11.02,11.02,0,0,1,11.02-11.021H40.013a11.02,11.02,0,0,1,11.02,11.021v4.191A4.037,4.037,0,0,1,47,34.384Z" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Trazado_890" data-name="Trazado 890" d="M6.446,17.062l.967-10.1A6.611,6.611,0,0,1,14.163.5H39.676a6.611,6.611,0,0,1,6.75,6.463l.967,10.1" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Trazado_891" data-name="Trazado 891" d="M13.707,34.432v5.043a2.18,2.18,0,0,1-2.18,2.18H8.245a2.18,2.18,0,0,1-2.18-2.18V34.432" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Trazado_892" data-name="Trazado 892" d="M47.774,34.432v5.043a2.18,2.18,0,0,1-2.18,2.18H42.312a2.18,2.18,0,0,1-2.18-2.18V34.432" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Elipse_13" data-name="Elipse 13" cx="3.668" cy="3.668" r="3.668" transform="translate(6.218 22.307)" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Elipse_14" data-name="Elipse 14" cx="3.668" cy="3.668" r="3.668" transform="translate(40.285 22.307)" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Trazado_893" data-name="Trazado 893" d="M47.167,12.729h4.042a2.064,2.064,0,0,1,2.064,2.064v.1a2.724,2.724,0,0,1-2.724,2.724H47.924" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Trazado_894" data-name="Trazado 894" d="M6.606,12.729H2.564A2.064,2.064,0,0,0,.5,14.793v.1A2.724,2.724,0,0,0,3.224,17.62H5.849" fill="none" stroke="#404040" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
